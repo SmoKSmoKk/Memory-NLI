@@ -1,0 +1,37 @@
+# utterance,action
+show info,SHOW INFORMATION
+display information about dataframe,SHOW INFORMATION
+show dataframe info,SHOW INFORMATION
+show rows,SHOW FIRST ROWS
+first rows,SHOW FIRST ROWS
+display the first rows,SHOW FIRST ROWS
+are there missing values,SHOW MISSING VALUES
+detect empty values,SHOW MISSING VALUES
+show if there are missing values,SHOW MISSING VALUES
+remove the missing values,DROP MISSING VALUES
+drop empty cells,DROP MISSING VALUES
+delete missing values,DROP MISSING VALUES
+fill missing values with <value>,FILL MISSING VALUES WITH <value>
+replace missing entries with <value>,FILL MISSING VALUES WITH <value>
+write <value> in missing cells,FILL MISSING VALUES WITH <value>
+set the index to <value>,SET INDEX TO <value>
+use <value> as an index,SET INDEX TO <value>
+change the index to <value>,SET INDEX TO <value>
+group by <value>,GROUP BY COLUMN <value>
+group DataFrame by the column <value>,GROUP BY COLUMN <value>
+group by column <value>,GROUP BY COLUMN <value>
+sort the data by <value>,SORT VALUES BY <value>
+order data by <value>,SORT VALUES BY <value>
+sort table by column <value>,SORT VALUES BY <value>
+strip <value> from column <value>,ON COLUMN <value> STRIP <value>
+remove <value> from <value>,ON COLUMN <value> STRIP <value>
+delete <value> from the column <value>,ON COLUMN <value> STRIP <value>
+filter for <value><condition>,SELECT ROWS WHERE <value><condition>
+select rows where <value><condition>,SELECT ROWS WHERE <value><condition>
+keep rows where <value><condition>,SELECT ROWS WHERE <value><condition>
+delete row <number>,DELETE ROW <number>
+remove row <number>,DELETE ROW <number>
+drop row <number>,DELETE ROW <number>
+swap <value> with <value>,REPLACE <value> WITH <value>
+split the column <value> on <value>,ON COLUMN <value> SPLIT ON <value>
+split <value> where it says <value>,ON COLUMN <value> SPLIT ON <value>

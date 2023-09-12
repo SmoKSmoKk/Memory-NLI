@@ -1,0 +1,3 @@
+# utterance, action
+delete column <value>, DELETE COLUMN <value>
+remove column <value>, DELETE COLUMN <value>

@@ -1,0 +1,72 @@
+# utterance,action
+delete row <number>,DELETE ROW <number>
+remove row <number>,DELETE ROW <number>
+drop row <number>,DELETE ROW <number>
+delete the rows <number_list>,DELETE ROWS <number_list>
+drop the rows <number_list>,DELETE ROWS <number_list>
+remove rows <number_list>,DELETE ROWS <number_list>
+remove rows,DELETE ROWS
+drop rows,DELETE ROWS
+delete rows by index,DELETE ROWS
+delete column <value>,DELETE COLUMN <value>
+remove column <value>,DELETE COLUMN <value>
+drop column <value>,DELETE COLUMN <value>
+delete column,DELETE COLUMN
+remove a column,DELETE COLUMN
+drop a column from the dataframe,DELETE COLUMN
+delete columns <string_list>,DELETE COLUMN <string_list>
+remove the columns <string_list>,DELETE COLUMN <string_list>
+drop <string_list>,DELETE COLUMN <string_list>
+show info,SHOW INFORMATION
+display information about dataframe,SHOW INFORMATION
+show summary of dataframe,SHOW INFORMATION
+describe the dataframe,DESCRIBE DATAFRAME
+show statistics,DESCRIBE DATAFRAME
+generate stats,DESCRIBE DATAFRAME
+show rows,SHOW FIRST ROWS
+first rows,SHOW FIRST ROWS
+display the first rows,SHOW FIRST ROWS
+display <number> rows,SHOW FIRST <number> ROWS
+show the first <number> rows>,SHOW FIRST <number> ROWS
+first <number> rows,SHOW FIRST <number> ROWS
+are there missing values,SHOW MISSING VALUES
+detect empty values,SHOW MISSING VALUES
+show if there are missing values,SHOW MISSING VALUES
+remove the missing values,DROP MISSING VALUES
+drop empty cells,DROP MISSING VALUES
+delete missing values,DROP MISSING VALUES
+remove empty cells from the column <value>,DROP MISSING VALUES FROM <value>
+delete missing values from <value>,DROP MISSING VALUES FROM <value>
+drop rows with missing data from column <value>,DROP MISSING VALUES FROM <value>
+fill missing values with <value>,FILL MISSING VALUES WITH <value>
+replace nan values with <value>,FILL MISSING VALUES WITH <value>
+write <value> in missing cells,FILL MISSING VALUES WITH <value>
+write <number> in missing cells,FILL MISSING VALUES WITH <number>
+fill the missing values with <number>,FILL MISSING VALUES WITH <number>
+replace nan values with <number>,FILL MISSING VALUES WITH <number>
+remove duplicates,DROP DUPLICATE VALUES
+drop the duplicate values,DROP DUPLICATE VALUES
+filter out duplicates,DROP DUPLICATE VALUES
+change the datatype to <value>,CHANGE DATATYPE TO <value>
+convert to type <value>,CHANGE DATATYPE TO <value>
+use type <value>,CHANGE DATATYPE TO <value>
+change <value> type to <value>,ON COLUMN <value> CHANGE DATATYPE TO <value>
+convert <value> to <value>,ON COLUMN <value> CHANGE DATATYPE TO <value>
+set datatype of <value> to <value>,ON COLUMN <value> CHANGE DATATYPE TO <value>
+round to <number> decimal points,ROUND TO <number> DECIMAL POINTS
+round values to <number> decimals,ROUND TO <number> DECIMAL POINTS
+round the values down to <number> points,ROUND TO <number> DECIMAL POINTS
+round <value> to <number> decimal points,ON COLUMN <value> ROUND TO <number> DECIMAL POINTS
+on <value> use only <number> decimals,ON COLUMN <value> ROUND TO <number> DECIMAL POINTS
+round the values down to <number> points on <value>,ON COLUMN <value> ROUND TO <number> DECIMAL POINTS
+rename <value> to <value>,RENAME <value> TO <value>
+change the column label <value> to <value>,RENAME <value> TO <value>
+set the title <value> to <value>,RENAME <value> TO <value>
+rename the columns to <value>,RENAME COLUMNS TO <value>
+change titles to <value>,RENAME COLUMNS TO <value>
+change labels to <value>,RENAME COLUMNS TO <value>
+unpivot the dataframe,MELT DATAFRAME
+melt the dataframe,MELT DATAFRAME
+reshape from wide to long format,MELT DATAFRAME
+reshape from wide to long format keeping <string_list>,MELT DATAFRAME WITH <string_list> AS COLUMNS
+unpivot the dataframe with <string_list> as columns,MELT DATAFRAME WITH <string_list> AS COLUMNS

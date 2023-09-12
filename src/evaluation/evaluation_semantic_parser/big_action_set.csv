@@ -1,0 +1,151 @@
+# utterance,action
+delete row <number>,DELETE ROW <number>
+remove row <number>,DELETE ROW <number>
+drop row <number>,DELETE ROW <number>
+delete the rows <number_list>,DELETE ROWS <number_list>
+drop the rows <number_list>,DELETE ROWS <number_list>
+remove rows <number_list>,DELETE ROWS <number_list>
+remove rows,DELETE ROWS
+drop rows,DELETE ROWS
+delete rows by index,DELETE ROWS
+delete column <value>,DELETE COLUMN <value>
+remove column <value>,DELETE COLUMN <value>
+drop column <value>,DELETE COLUMN <value>
+delete column,DELETE COLUMN
+remove a column,DELETE COLUMN
+drop a column from the dataframe,DELETE COLUMN
+delete columns <string_list>,DELETE COLUMN <string_list>
+remove the columns <string_list>,DELETE COLUMN <string_list>
+drop <string_list>,DELETE COLUMN <string_list>
+show info,SHOW INFORMATION
+display information about dataframe,SHOW INFORMATION
+show summary of dataframe,SHOW INFORMATION
+describe the dataframe,DESCRIBE DATAFRAME
+show statistics,DESCRIBE DATAFRAME
+generate stats,DESCRIBE DATAFRAME
+show rows,SHOW FIRST ROWS
+first rows,SHOW FIRST ROWS
+display the first rows,SHOW FIRST ROWS
+display <number> rows,SHOW FIRST <number> ROWS
+show the first <number> rows>,SHOW FIRST <number> ROWS
+first <number> rows,SHOW FIRST <number> ROWS
+are there missing values,SHOW MISSING VALUES
+detect empty values,SHOW MISSING VALUES
+show if there are missing values,SHOW MISSING VALUES
+remove the missing values,DROP MISSING VALUES
+drop empty cells,DROP MISSING VALUES
+delete missing values,DROP MISSING VALUES
+remove empty cells from the column <value>,DROP MISSING VALUES FROM <value>
+delete missing values from <value>,DROP MISSING VALUES FROM <value>
+drop rows with missing data from column <value>,DROP MISSING VALUES FROM <value>
+fill missing values with <value>,FILL MISSING VALUES WITH <value>
+replace nan values with <value>,FILL MISSING VALUES WITH <value>
+write <value> in missing cells,FILL MISSING VALUES WITH <value>
+write <number> in missing cells,FILL MISSING VALUES WITH <number>
+fill the missing values with <number>,FILL MISSING VALUES WITH <number>
+replace nan values with <number>,FILL MISSING VALUES WITH <number>
+remove duplicates,DROP DUPLICATE VALUES
+drop the duplicate values,DROP DUPLICATE VALUES
+filter out duplicates,DROP DUPLICATE VALUES
+change the datatype to <value>,CHANGE DATATYPE TO <value>
+convert to type <value>,CHANGE DATATYPE TO <value>
+use type <value>,CHANGE DATATYPE TO <value>
+change <value> type to <value>,ON COLUMN <value> CHANGE DATATYPE TO <value>
+convert <value> to <value>,ON COLUMN <value> CHANGE DATATYPE TO <value>
+set datatype of <value> to <value>,ON COLUMN <value> CHANGE DATATYPE TO <value>
+round to <number> decimal points,ROUND TO <number> DECIMAL POINTS
+round values to <number> decimals,ROUND TO <number> DECIMAL POINTS
+round the values down to <number> points,ROUND TO <number> DECIMAL POINTS
+round <value> to <number> decimal points,ON COLUMN <value> ROUND TO <number> DECIMAL POINTS
+on <value> use only <number> decimals,ON COLUMN <value> ROUND TO <number> DECIMAL POINTS
+round the values down to <number> points on <value>,ON COLUMN <value> ROUND TO <number> DECIMAL POINTS
+rename <value> to <value>,RENAME <value> TO <value>
+change the column label <value> to <value>,RENAME <value> TO <value>
+set the title <value> to <value>,RENAME <value> TO <value>
+rename the columns to <value>,RENAME COLUMNS TO <value>
+change titles to <value>,RENAME COLUMNS TO <value>
+change labels to <value>,RENAME COLUMNS TO <value>
+unpivot the dataframe,MELT DATAFRAME
+melt the dataframe,MELT DATAFRAME
+reshape from wide to long format,MELT DATAFRAME
+reshape from wide to long format keeping <string_list>,MELT DATAFRAME WITH <string_list> AS COLUMNS
+unpivot the dataframe with <string_list> as columns,MELT DATAFRAME WITH <string_list> AS COLUMNS
+melt the dataframe keeping <string_list>,MELT DATAFRAME WITH <string_list> AS COLUMNS
+filter for <value>,FILTER FOR COLUMN <value>
+select the column <value>,FILTER FOR COLUMN <value>
+keep <value>,FILTER FOR COLUMN <value>
+filter for <string_list>,FILTER FOR COLUMN <string_list>
+select the column <string_list>,FILTER FOR COLUMN <string_list>
+keep <string_list>,FILTER FOR COLUMN <string_list>
+set the index to <value>,SET INDEX TO <value>
+use <value> as an index,SET INDEX TO <value>
+change the index to <value>,SET INDEX TO <value>
+reset the index,RESET INDEX
+use default index,RESET INDEX
+change index back,RESET INDEX
+assign a new column,ASSIGN NEW COLUMN
+create a new column,ASSIGN NEW COLUMN
+define column,ASSIGN NEW COLUMN
+create a new column with <value>,ASSIGN NEW COLUMN AS <value>
+make a new column with <value>,ASSIGN NEW COLUMN AS <value>
+assign <value> as new column,ASSIGN NEW COLUMN AS <value>
+group by <value>,GROUP BY COLUMN <value>
+group DataFrame by the column <value>,GROUP BY COLUMN <value>
+group by column <value>,GROUP BY COLUMN <value>
+group by columns <string_list>,GROUP BY COLUMN <string_list>
+groupby <string_list>,GROUP BY COLUMN <string_list>
+group the data by <string_list>,GROUP BY COLUMN <string_list>
+aggregate using <value>,AGGREGATE USING <value>
+aggregate with <value>,AGGREGATE USING <value>
+sum up with <value>,AGGREGATE USING <value>
+write to csv at <value>,SAVE TO CSV AS <value>
+save at <value> as csv,SAVE TO CSV AS <value>
+download to <value>,SAVE TO CSV AS <value>
+write to csv,SAVE TO CSV
+save the dataframe as csv,SAVE TO CSV
+write data to file,SAVE TO CSV
+read in <value>,READ <value> AS CSV
+load <value> as csv file,READ <value> AS CSV
+create dataframe from <value>,READ <value> AS CSV
+convert <value> to datetime,CONVERT <value> TO DATETIME
+transform <value> into date,CONVERT <value> TO DATETIME
+write <value> as a date,CONVERT <value> TO DATETIME
+convert <value> to numeric,CONVERT <value> TO NUMERIC
+change the datatype of <value> to numbers,CONVERT <value> TO NUMERIC
+use numeric type for <value>,CONVERT <value> TO NUMERIC
+sort the data by <value>,SORT VALUES BY <value>
+order data by <value>,SORT VALUES BY <value>
+sort table by column <value>,SORT VALUES BY <value>
+forward fill missing values in <value>,ON COLUMN <value> FILL FORWARD
+on column <value> fill missing data with previous data,ON COLUMN <value> FILL FORWARD
+fill empty cells in <value> with previous values,ON COLUMN <value> FILL FORWARD
+strip <value> from column <value>,ON COLUMN <value> STRIP <value>
+remove <value> from <value>,ON COLUMN <value> STRIP <value>
+delete <value> from the column <value>,ON COLUMN <value> STRIP <value>
+replace <value> with <value>,REPLACE <value> WITH <value>
+find and replace <value> with <value>,REPLACE <value> WITH <value>
+swap <value> with <value>,REPLACE <value> WITH <value>
+replace values,REPLACE VALUES
+swap out values,REPLACE VALUES
+overwrite values,REPLACE VALUES
+split the column <value> on <value>,ON COLUMN <value> SPLIT ON <value>
+split <value> where it says <value>,ON COLUMN <value> SPLIT ON <value>
+part <value> on <value>,ON COLUMN <value> SPLIT ON <value>
+split column <value>,SPLIT ON COLUMN <value>
+split <value> on whitespace,SPLIT ON COLUMN <value>
+split <value>,SPLIT ON COLUMN <value>
+on column <value> replace <value> with <value>,ON COLUMN <value> REPLACE <value> WITH <value>
+swap <value> with <value> on <value>,ON COLUMN <value> REPLACE <value> WITH <value>
+in <value> switch <value> with <value>,ON COLUMN <value> REPLACE <value> WITH <value>
+join values in column <value> on <value>,ON COLUMN <value> JOIN ON <value>
+merge values in <value> with <value>,ON COLUMN <value> JOIN ON <value>
+combine values in <value> with delimiter <value>,ON COLUMN <value> JOIN ON <value>
+extract <value> from <value>,ON COLUMN <value> EXTRACT <value>
+filter <value> from <value>,ON COLUMN <value> EXTRACT <value>
+from <value> extract <value>,ON COLUMN <value> EXTRACT <value>
+extract value,EXTRACT VALUES
+filter out values,EXTRACT VALUES
+filter for regex,EXTRACT VALUES
+get unique values from <value>,GET UNIQUE VALUES FROM <value>
+keep only unique entries from <value>,GET UNIQUE VALUES FROM <value>
+remove the duplicate values from <value>,GET UNIQUE VALUES FROM <value>

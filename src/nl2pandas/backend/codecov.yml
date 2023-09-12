@@ -1,0 +1,25 @@
+coverage:
+    status:
+        project:
+            default:
+                # basic
+                target: auto
+                threshold: 75%
+                base: auto
+                flags:
+                    - unit
+                paths:
+                    - "nli_for_pandas"
+                    - "pandas_generator"
+                # advanced settings
+                branches:
+                    - master
+                if_ci_failed: error
+                informational: true
+                only_pulls: false
+        patch:
+            default:
+                target: 80%
+
+    codecov:
+    require_ci_to_pass: yes
